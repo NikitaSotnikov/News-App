@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">News App (TheGuardian.com)</string>
+
+    <!-- Text to display in the list when there are no news [CHAR LIMIT=NONE] -->
+    <string name="no_news">No news found.</string>
+    <string name="no_connection">No internet connection.</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News Settings</string>
+
+    <!-- Strings For Search Query Preference [CHAR LIMIT=30] -->
+    <string name="settings_search_query_label">Search query</string>
+    <string name="settings_search_query_key" translatable="false">q</string>
+    <string name="settings_search_query_default" translatable="false">russia</string>
+
+    <!-- Strings For Limit Preference [CHAR LIMIT=30] -->
+    <string name="settings_limit_label">Limit</string>
+    <string name="settings_limit_key" translatable="false">page-size</string>
+    <string name="settings_limit_default" translatable="false">10</string>
+
+
+    <!-- Strings For Section Preference [CHAR LIMIT=30] -->
+    <string name="settings_section_label">Section</string>
+    <string name="settings_section_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false">@string/settings_section_empty_value</string>
+
+    <!-- Label for section Empty option [CHAR LIMIT=20] -->
+    <string name="settings_section_empty_label">-</string>
+    <string name="settings_section_empty_value" translatable="false"></string>
+
+    <!-- Label for section News option [CHAR LIMIT=20] -->
+    <string name="settings_section_news_label">News</string>
+    <string name="settings_section_news_value" translatable="false">news</string>
+
+    <!-- Label for section World option [CHAR LIMIT=20] -->
+    <string name="settings_section_world_label">World</string>
+    <string name="settings_section_world_value" translatable="false">world</string>
+
+    <!-- Label for section Business option [CHAR LIMIT=20] -->
+    <string name="settings_section_business_label">Business</string>
+    <string name="settings_section_business_value" translatable="false">business</string>
+
+    <!-- Label for section Technology option [CHAR LIMIT=20] -->
+    <string name="settings_section_technology_label">Technology</string>
+    <string name="settings_section_technology_value" translatable="false">technology</string>
+
+    <!-- Label for section Sport option [CHAR LIMIT=20] -->
+    <string name="settings_section_sport_label">Sport</string>
+    <string name="settings_section_sport_value" translatable="false">sport</string>
+
+    <!-- Label for section Fashion option [CHAR LIMIT=20] -->
+    <string name="settings_section_fashion_label">Fashion</string>
+    <string name="settings_section_fashion_value" translatable="false">fashion</string>
+
+    <!-- Label for section Travel option [CHAR LIMIT=20] -->
+    <string name="settings_section_travel_label">Travel</string>
+    <string name="settings_section_travel_value" translatable="false">travel</string>
+
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by Newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by Oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by Relevance option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+</resources>
